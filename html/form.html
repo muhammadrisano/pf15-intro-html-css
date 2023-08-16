@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>halaman register</h1>
+
+    <form>
+        <div>
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+            <input type="password" placeholder="password">
+            <input type="date" placeholder="password">
+            <input type="radio" name="jender" value="laki-laki" id="laki-laki"><label for="laki-laki">Laki-laki</label>
+            <input type="radio" name="jender" value="perempuan" id="perempuan"> <label for="perempuan">Perempuan</label>
+        </div>
+        <div>
+            <label for="alamat">Alamat : </label>
+            <textarea rows="3" cols="40" id="alamat"></textarea>
+        </div>
+        <div>
+            <label for="pendidikan">Pendidikan Terakhir : </label>
+            <select name="pendidikan" id="pendidikan">
+                <option value="s3">S3</option>
+                <option value="s2">S2</option>
+                <option value="s1">S1</option>
+                <option value="sma">SMA sederajat</option>
+                <option value="smp">smp</option>
+                <option value="sd">SD</option>
+
+            </select>
+        </div>
+        <div>
+            <button type="submit">Simpan</button>
+            <button type="reset">Kembali</button>
+        </div>
+    </form>
+</body>
+</html>
